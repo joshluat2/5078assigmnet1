@@ -2,7 +2,7 @@
 
 }
 h1 {
-    width: 500px;
+    width: 50%;
     margin: 0 auto;
     text-align: center;
 }
@@ -10,7 +10,12 @@ h1 {
     float: left;
 }
 
+.right {
+    margin-left: auto;
+}
+
 ul {
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -24,7 +29,7 @@ ul li item {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 55px;
+    padding: 1.4% -30%;
     text-decoration: none;
     font-size: large;
 }
