@@ -24,12 +24,13 @@ ul {
 }
 ul li {
     float: right;
+    gap: 10%;
 }
 ul li item {
     display: block;
     color: white;
     text-align: center;
-    padding: 1.4% -30%;
+    padding: 1.4% 5.5%%;
     text-decoration: none;
     font-size: large;
 }
