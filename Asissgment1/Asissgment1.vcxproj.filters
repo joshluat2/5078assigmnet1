@@ -17,5 +17,10 @@
   <ItemGroup>
     <None Include="HTMLPage1.html" />
     <None Include="StyleSheet2.css" />
+    <None Include="JavaScript1.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\hue1.png" />
+    <Image Include="..\..\hue2.jpg" />
   </ItemGroup>
 </Project>

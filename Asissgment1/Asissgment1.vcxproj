@@ -124,7 +124,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="HTMLPage1.html" />
+    <None Include="JavaScript1.js" />
     <None Include="StyleSheet2.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\hue1.png" />
+    <Image Include="..\..\hue2.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
