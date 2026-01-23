@@ -2,10 +2,22 @@
     margin: 0;
 
 }
+
+.encapsulordiv {
+    margin: 15%;
+}
 h1 {
     width: 50%;
     margin: 0 auto;
     text-align: center;
+    padding: 5%;
+}
+
+h2 {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5%;
 }
 .left {
     float: left;
@@ -35,4 +47,76 @@ ul li item {
     padding: 1.4rem 2.5rem;
     text-decoration: none;
     font-size: large;
+}
+
+.randomimgdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid black;
+}
+
+
+.contaierdiv {
+    display: flex;
+    gap: 5rem;
+    overflow: auto;
+    width 60%;
+}
+
+
+.gallerydivparent {
+    margin: 0;
+    height: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    border: 2px solid green;
+    display: flex;
+    overflow: auto;
+    height: auto;
+}
+.gallerydiv {
+    margin: 0;
+    flex: 1;
+    padding: 1rem;
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+    .gallerydiv img {
+        width: 50%;
+    }
+
+.textdiv {
+    flex: 1;
+    display: flex;
+    padding: 1rem;
+    border: 2px solid green;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    overflow: hidden;
+}
+
+
+
+
+@media(max-width: 600px) {
+    .contaierdiv {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        border: 2px solid red;
+    }
+}
+
+.galimg {
+
 }
