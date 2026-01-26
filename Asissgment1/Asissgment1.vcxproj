@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="HTMLPage1.html" />
+    <None Include="HtmlPage2.html" />
     <None Include="JavaScript1.js" />
     <None Include="StyleSheet2.css" />
   </ItemGroup>
