@@ -130,6 +130,7 @@
   <ItemGroup>
     <Image Include="..\..\hue1.png" />
     <Image Include="..\..\hue2.jpg" />
+    <Image Include="bottom_banner.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
