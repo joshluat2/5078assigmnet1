@@ -19,10 +19,11 @@
     <None Include="StyleSheet2.css" />
     <None Include="JavaScript1.js" />
     <None Include="HtmlPage2.html" />
+    <None Include="hue2" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\hue1.png" />
-    <Image Include="..\..\hue2.jpg" />
     <Image Include="bottom_banner.jpg" />
+    <Image Include="divider.png" />
+    <Image Include="hue1.jpg" />
   </ItemGroup>
 </Project>
