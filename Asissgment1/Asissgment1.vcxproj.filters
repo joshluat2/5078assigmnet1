@@ -28,5 +28,8 @@
     <Image Include="bottom_banner.png" />
     <Image Include="divider.png" />
     <Image Include="logo.png" />
+    <Image Include="bedroom.png" />
+    <Image Include="livingroom.png" />
+    <Image Include="kitchen.png" />
   </ItemGroup>
 </Project>

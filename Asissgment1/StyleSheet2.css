@@ -50,6 +50,20 @@ h2 {
     margin-left: auto;
 }
 
+.navbutton {
+    border: none;
+    color: black;
+    padding: 2rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4% 2%;
+    cursor: pointer;
+    box-shadow: 0 4px 8px white;
+    
+}
+
 ul {
     width: 100%;
     display: flex;
@@ -83,10 +97,17 @@ ul li {
         font-size: medium;
     }
 }
+@media (max-width: 1200px) {
+    .navbutton {
+        padding: 1rem 1rem;
+        font-size: 12px;
+        margin: 2% 1%;
+    }
+}
         ul li item img {
             float: left;
             margin-top: 3%;
-            width: 30%;
+            width: 75%;
             padding: 1.4rem 2.5rem;
             
         }
@@ -129,7 +150,7 @@ ul li {
     display: flex;
     overflow: auto;
     height: auto;
-    border: 2px solid black;
+    
 }
 .gallerydiv {
     margin: 0;
@@ -137,12 +158,11 @@ ul li {
     padding: 1rem;
     display: flex;
     justify-content: center;
-    background-color: black;
    
 }
 
     .gallerydiv img {
-        width: 50%;
+        width: 100%;
     }
 
 .textdiv {
@@ -157,7 +177,7 @@ ul li {
     height: fit-content;
     width: contain;
     overflow: hidden;
-    background-color: black;
+    
 }
 
 

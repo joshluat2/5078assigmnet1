@@ -130,11 +130,14 @@
     <None Include="StyleSheet2.css" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="bedroom.png" />
     <Image Include="bottom_banner.png" />
     <Image Include="divider.png" />
     <Image Include="forestView.png" />
     <Image Include="hue1.jpg" />
+    <Image Include="kitchen.png" />
     <Image Include="lake.png" />
+    <Image Include="livingroom.png" />
     <Image Include="logo.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
