@@ -11,6 +11,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin: 0%;
 }
 
 .imgback2 {
@@ -20,6 +21,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin: 0%;
 }
 
 .encapsulordiv {
@@ -55,7 +57,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: visible;
-    background-color: #333;
+    box-shadow: 0 4px 8px white
 }
 
 
@@ -72,6 +74,7 @@ ul li {
         padding: 1.4rem 5rem;
         text-decoration: none;
         font-size: large;
+        
     }
 
 @media (max-width: 600px) {
@@ -82,9 +85,10 @@ ul li {
 }
         ul li item img {
             float: left;
+            margin-top: 3%;
             width: 30%;
             padding: 1.4rem 2.5rem;
-            opacity:0.35;
+            
         }
 
 
@@ -188,10 +192,13 @@ iframe {
     margin: 5%;
 }
 
-
-.divider {
-    width: 50%;
-    height: auto;
-    z-index: 10;
-    position: absolute;
+hr.dashed {
+    border-top: 8px solid white;
+    border-radius: 5px;
+    margin: 0%;
+}
+hr.dashedbottom {
+    border-bottom: 8px solid white;
+    border-radius: 5px;
+    margin: 0%;
 }

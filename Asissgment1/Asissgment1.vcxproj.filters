@@ -27,5 +27,6 @@
     <Image Include="lake.png" />
     <Image Include="bottom_banner.png" />
     <Image Include="divider.png" />
+    <Image Include="logo.png" />
   </ItemGroup>
 </Project>
