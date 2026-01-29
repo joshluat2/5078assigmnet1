@@ -4,23 +4,41 @@
     background-color: #89CFF0;
 }
 
-.encapsulordiv {
-    background-color: #6495ED;
+.imgback {
+    height: auto;
+    width: 100%;
+    background-image: url(forestView.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.smallermargin {
-    background-color: #6495ED;
-    margin:5%;
+.imgback2 {
+    height: auto;
+    width: 100%;
+    background-image: url(lake.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
+
+.encapsulordiv {
+    
+}
+
 
 h1 {
+    font-family: 'Playfair Display', sans-serif;
+    color: white;
     text-align: center;
-    padding: 3%;
+    
 }
 
 h2 {
+    font-family: 'Playfair Display', sans-serif;
+    color: white;
     text-align: center;
-    margin-top: 15%;
+    
 }
 .left {
     float: left;
@@ -75,14 +93,12 @@ ul li {
     display: flex;
     justify-content: center;
     align-content: center;
-    padding: 5%;
+    padding: 20%;
 }
 
     .randomimgdiv img {
-        height: 25%;
-        width: 100%;
-        padding: 2rem;
-        
+        height: auto;
+        width: 100%;        
     }
 
 
@@ -92,7 +108,9 @@ ul li {
     display: flex;
     gap: 5rem;
     overflow: hidden;
-    width 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
 }
 
 
@@ -107,7 +125,6 @@ ul li {
     display: flex;
     overflow: auto;
     height: auto;
-    background-color: #d0b9a8;
     border: 2px solid black;
 }
 .gallerydiv {
@@ -116,7 +133,7 @@ ul li {
     padding: 1rem;
     display: flex;
     justify-content: center;
-    background-color: #eed9c4;
+    background-color: black;
    
 }
 
@@ -125,15 +142,18 @@ ul li {
     }
 
 .textdiv {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: small;
+    color: white;
     flex: 1;
     display: flex;
     padding: 1rem;
     justify-content: center;
     align-items: center;
-    height: auto;
+    height: fit-content;
     width: contain;
     overflow: hidden;
-    background-color: #eed9c4;
+    background-color: black;
 }
 
 
@@ -144,7 +164,6 @@ ul li {
         flex-direction: column;
         justify-content: center;
         align-content: center;
-        border: 2px solid red;
     }
 }
 
@@ -155,8 +174,8 @@ ul li {
 }
     .bottomdiv img {
         width: 100%;
-        height: auto;
-        opacity: 0.35;
+        height: 25%;
+        
         position: absolute;
     }
 
@@ -169,10 +188,10 @@ iframe {
     margin: 5%;
 }
 
+
 .divider {
-    width: 130vw;
+    width: 50%;
     height: auto;
+    z-index: 10;
     position: absolute;
-    display: flex;
-    
 }
