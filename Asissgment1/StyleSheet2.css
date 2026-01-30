@@ -36,6 +36,10 @@ h1 {
     
 }
 
+p {
+    font-family: 'Playfair Display', sans-serif;
+}
+
 h2 {
     font-family: 'Playfair Display', sans-serif;
     color: white;
@@ -53,6 +57,7 @@ h2 {
 .navbutton {
     border: none;
     color: black;
+    font-family: 'Playfair Display', sans-serif;
     padding: 2rem 2rem;
     text-align: center;
     text-decoration: none;
@@ -61,7 +66,6 @@ h2 {
     margin: 4% 2%;
     cursor: pointer;
     box-shadow: 0 4px 8px white;
-    
 }
 
 ul {
