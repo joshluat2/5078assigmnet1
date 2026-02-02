@@ -1,1 +1,8 @@
 https://www.w3schools.com/HOWTO/howto_css_dividers.asp
+https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button_css
+https://stackoverflow.com/questions/42003566/how-to-automatically-change-an-html-image-using-javascript
+https://www.geeksforgeeks.org/css/how-to-align-content-of-a-div-to-the-bottom-using-css/
+https://sentry.io/answers/how-do-i-auto-resize-an-image-to-fit-a-div-container/
+https://www.geeksforgeeks.org/css/how-to-position-a-div-at-the-bottom-of-its-container-using-css/
+https://stackoverflow.com/questions/1709442/make-divs-height-expand-with-its-content
+https://jsfiddle.net/Kyle_/JZ42j/
