@@ -58,18 +58,22 @@ h2 {
 
 .navbutton {
     border: none;
-    background-color: none;
-    color: black;
+    background-color: transparent;
+    color: ghostwhite;
     font-family: 'Playfair Display', sans-serif;
     padding: 2rem 2rem;
+    height:20%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
     margin: 4% 2%;
     cursor: pointer;
-    box-shadow: 0 4px 8px white;
+    font-size:large;
 }
+    button:hover {
+        text-decoration: underline;
+        color:gray;
+    }
 
 ul {
     width: 100%;
@@ -210,14 +214,7 @@ ul li {
         position: absolute;
     }
 
-section {
-    display: flex;
-    justify-content: left;
-    position: relative;
-}
-iframe {
-    margin: 5%;
-}
+
 
 hr.dashed {
     border-top: 8px solid white;

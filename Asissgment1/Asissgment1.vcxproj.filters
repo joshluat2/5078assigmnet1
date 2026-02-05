@@ -20,6 +20,7 @@
     <None Include="JavaScript1.js" />
     <None Include="HtmlPage2.html" />
     <None Include="hue2" />
+    <None Include="StyleSheet3.css" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="hue1.jpg" />
@@ -31,5 +32,7 @@
     <Image Include="bedroom.png" />
     <Image Include="livingroom.png" />
     <Image Include="kitchen.png" />
+    <Image Include="couple.png" />
+    <Image Include="snowmobo.png" />
   </ItemGroup>
 </Project>

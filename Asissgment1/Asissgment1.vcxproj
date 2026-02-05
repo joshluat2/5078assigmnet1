@@ -128,10 +128,12 @@
     <None Include="hue2" />
     <None Include="JavaScript1.js" />
     <None Include="StyleSheet2.css" />
+    <None Include="StyleSheet3.css" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="bedroom.png" />
     <Image Include="bottom_banner.png" />
+    <Image Include="couple.png" />
     <Image Include="divider.png" />
     <Image Include="forestView.png" />
     <Image Include="hue1.jpg" />
@@ -139,6 +141,7 @@
     <Image Include="lake.png" />
     <Image Include="livingroom.png" />
     <Image Include="logo.png" />
+    <Image Include="snowmobo.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
