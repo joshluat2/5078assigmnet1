@@ -174,7 +174,7 @@ iframe {
         margin: 5%;
     }
 
- 
+
     .textbox2 {
         background-color: white;
         border: 2px solid black;
@@ -189,6 +189,7 @@ iframe {
         grid-row: 2;
         height: fit-content;
         overflow: hidden;
+        left: 25%;
     }
 
     .imgbox2 {
