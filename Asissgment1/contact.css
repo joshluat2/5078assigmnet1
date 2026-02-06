@@ -10,8 +10,10 @@ body
 }
 .test {
     width: 65%;
-    background-color: white;
     grid-column: 2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px;
 }
 
 form {
@@ -64,34 +66,39 @@ form img {
     width: 20%;
     height: auto;
     position: absolute;
-    left: 35%;
+    left: 32%;
 }
 @media(max-width: 600px) {
     .containerboxforms {
         padding: 2%;
         display: grid;
+        grid-template-columns: 100%;
         grid-template-rows: 50%, 50%;
         margin: 5%;
     }
 
-    .test {
-        width: 65%;
-        background-color: white;
-        grid-row: 2;
-    }
-
     form {
         display: flex;
-        width: 400px;
         padding: 20px;
         border-radius: 10px;
         margin: 0 auto;
+        grid-column: 1;
         grid-row: 1;
         box-shadow: 0 4px 8px;
+        margin-bottom: 10%;
     }
 
+    .test {
+        background-color: white;
+        grid-column: 1;
+        grid-row: 2;
+        margin: 0 auto;
+    }
+
+ 
+
         form img {
-            width: 40%;
+            width: 30%;
             height: auto;
             position: absolute;
             left: 49%;
