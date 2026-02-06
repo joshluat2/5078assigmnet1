@@ -2,19 +2,11 @@ body
 {
 }
 
-.containerboxforms {
-    padding: 2%;
-    display: grid;
-    grid-template-columns: 50%, 50%;
-    grid-template-rows: 100%;
-    margin: 5%;
-    border: 5px double #89CFF0;
-}
 
 
 form {
     display: flex;
-    width: 30%;
+    width: 45%;
     padding: 20px;
     border-radius: 10px;
     margin: 0 auto;
@@ -63,57 +55,10 @@ form img {
     width: 20%;
     height: auto;
     position: absolute;
-    left: 32%;
-}
-
-
-.test {
-    grid-column: 2;
-    grid-row: 1;
-    display: grid;
-    grid-template-columns: 100%, 100%;
-    grid-template-rows: 100%, 100%, 100%;
-    width: 65%;
-    grid-column: 2;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px;
-    background-color: #89CFF0;
-    opacity: 0.8;
-}
-
-.textcontainer {
-    padding: 5%;
-    grid-column: 1;
-    grid-row: auto;
-    font-family: 'Libre Baskerville', Arial, serif;
-    border-width: 0px;
-    border: none;
-    width: 50%;
-    height: fit-content;
-    opacity: 1.0;
-}
-
-.mapcontainer {
-    grid-column: 1;
-    grid-row: 3;
-    font-family: 'Libre Baskerville', Arial, serif;
-    border-width: 0px;
-    border: none;
-    width: 50%;
-    height: fit-content;
-    opacity: 1.0;
+    left: 52%;
 }
 
 @media(max-width: 600px) {
-    .containerboxforms {
-        padding: 2%;
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 50%, 50%;
-        margin: 5%;
-    }
-
     form {
         width:65%;
         display: flex;
@@ -124,15 +69,6 @@ form img {
         grid-row: 1;
         box-shadow: 0 4px 8px;
     }
-
-    .test {
-        grid-column: 1;
-        grid-row: 2;
-        margin: 0 auto;
-    }
-
- 
-
         form img {
             width: 30%;
             height: auto;
