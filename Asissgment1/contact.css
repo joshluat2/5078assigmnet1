@@ -6,25 +6,22 @@ body
     padding: 2%;
     display: grid;
     grid-template-columns: 50%, 50%;
+    grid-template-rows: 100%;
     margin: 5%;
+    border: 5px double #89CFF0;
 }
-.test {
-    width: 65%;
-    grid-column: 2;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px;
-}
+
 
 form {
     display: flex;
-    width: 65%;
+    width: 30%;
     padding: 20px;
     border-radius: 10px;
     margin: 0 auto;
     flex-direction: column;
     box-shadow: 0 4px 8px;
     grid-column: 1;
+    grid-row: 1;
 }
 input[type=text] {
     font-family: 'Libre Baskerville', Arial, serif;
@@ -68,6 +65,46 @@ form img {
     position: absolute;
     left: 32%;
 }
+
+
+.test {
+    grid-column: 2;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 100%, 100%;
+    grid-template-rows: 100%, 100%, 100%;
+    width: 65%;
+    grid-column: 2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px;
+    background-color: #89CFF0;
+    opacity: 0.8;
+}
+
+.textcontainer {
+    padding: 5%;
+    grid-column: 1;
+    grid-row: auto;
+    font-family: 'Libre Baskerville', Arial, serif;
+    border-width: 0px;
+    border: none;
+    width: 50%;
+    height: fit-content;
+    opacity: 1.0;
+}
+
+.mapcontainer {
+    grid-column: 1;
+    grid-row: 3;
+    font-family: 'Libre Baskerville', Arial, serif;
+    border-width: 0px;
+    border: none;
+    width: 50%;
+    height: fit-content;
+    opacity: 1.0;
+}
+
 @media(max-width: 600px) {
     .containerboxforms {
         padding: 2%;
@@ -78,6 +115,7 @@ form img {
     }
 
     form {
+        width:65%;
         display: flex;
         padding: 20px;
         border-radius: 10px;
@@ -85,11 +123,9 @@ form img {
         grid-column: 1;
         grid-row: 1;
         box-shadow: 0 4px 8px;
-        margin-bottom: 10%;
     }
 
     .test {
-        background-color: white;
         grid-column: 1;
         grid-row: 2;
         margin: 0 auto;
