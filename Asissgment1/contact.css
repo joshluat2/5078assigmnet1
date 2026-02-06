@@ -47,8 +47,9 @@ input[type=submit] {
     height: 7%;
 }
 
-form image {
-    width: 100%;
+form img {
+    width: 20%;
     height: auto;
     margin-left: 30%;
+    position: absolute;
 }
