@@ -2,6 +2,13 @@ body
 {
 }
 
+.containerboxforms {
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 100%, 100%;
+    margin: 5%;
+}
+
 form {
     display: flex;
     width: 400px;
@@ -9,7 +16,8 @@ form {
     border-radius: 10px;
     margin: 0 auto;
     flex-direction: column;
-    box-shadow: 0 4px 8px 
+    box-shadow: 0 4px 8px;
+    grid-column: 1;
 }
 input[type=text] {
     font-family: 'Libre Baskerville', Arial, serif;
@@ -51,13 +59,23 @@ form img {
     width: 20%;
     height: auto;
     position: absolute;
-    left: 49%;
+    left: 21.5%;
 }
-@media(width: 600px) {
-    from {
-        width: 30%;
+@media(max-width: 600px) {
+    form {
+        display: flex;
+        width: 400px;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 0 auto;
+        flex-direction: column;
+        box-shadow: 0 4px 8px;
     }
-    form img {
-        width: 100%;
-    }
+
+        form img {
+            width: 40%;
+            height: auto;
+            position: absolute;
+            left: 49%;
+        }
 }
