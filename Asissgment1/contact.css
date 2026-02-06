@@ -1,7 +1,21 @@
 body
 {
 }
-.bu {
-    font-family: 'Playfair Display', sans-serif;
-    background-color: rebeccapurple;
+
+form {
+    display: flex;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-content: center;
+    box-shadow: 0 4px 8px; 
+}
+input[type=text] {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    background-color: lightgrey;
+    border-width: 0px;
+    border:none;
+    width:50%;
 }
