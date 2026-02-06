@@ -5,13 +5,18 @@ body
 .containerboxforms {
     padding: 2%;
     display: grid;
-    grid-template-columns: 100%, 100%;
+    grid-template-columns: 50%, 50%;
     margin: 5%;
+}
+.test {
+    width: 65%;
+    background-color: white;
+    grid-column: 2;
 }
 
 form {
     display: flex;
-    width: 400px;
+    width: 65%;
     padding: 20px;
     border-radius: 10px;
     margin: 0 auto;
@@ -59,16 +64,29 @@ form img {
     width: 20%;
     height: auto;
     position: absolute;
-    left: 21.5%;
+    left: 35%;
 }
 @media(max-width: 600px) {
+    .containerboxforms {
+        padding: 2%;
+        display: grid;
+        grid-template-rows: 50%, 50%;
+        margin: 5%;
+    }
+
+    .test {
+        width: 65%;
+        background-color: white;
+        grid-row: 2;
+    }
+
     form {
         display: flex;
         width: 400px;
         padding: 20px;
         border-radius: 10px;
         margin: 0 auto;
-        flex-direction: column;
+        grid-row: 1;
         box-shadow: 0 4px 8px;
     }
 
