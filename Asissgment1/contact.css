@@ -9,13 +9,46 @@ form {
     border-radius: 10px;
     margin: 0 auto;
     flex-direction: column;
-    align-content: center;
-    box-shadow: 0 4px 8px; 
+    box-shadow: 0 4px 8px 
 }
 input[type=text] {
-    font-family: 'Libre Baskerville', Georgia, serif;
+    font-family: 'Libre Baskerville', Arial, serif;
     background-color: lightgrey;
     border-width: 0px;
     border:none;
     width:50%;
+    height: 7%;
+}
+input[type=date] {
+    font-family: 'Libre Baskerville', Arial, serif;
+    background-color: lightgrey;
+    border-width: 0px;
+    border: none;
+    width: 50%;
+    height: 7%;
+}
+.asks {
+    display: block;
+    display: inline-block;
+    font-family: 'Libre Baskerville', Arial, serif;
+    background-color: lightgrey;
+    border-width: 0px;
+    border: none;
+    width: 50%;
+    line-height: 120%;
+    
+}
+input[type=submit] {
+    font-family: 'Libre Baskerville', Arial, serif;
+    background-color: lightgrey;
+    border-width: 0px;
+    border: none;
+    width: 50%;
+    height: 7%;
+}
+
+form image {
+    width: 100%;
+    height: auto;
+    margin-left: 30%;
 }
