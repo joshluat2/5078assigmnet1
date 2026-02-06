@@ -50,6 +50,14 @@ input[type=submit] {
 form img {
     width: 20%;
     height: auto;
-    margin-left: 30%;
     position: absolute;
+    left: 49%;
+}
+@media(width: 600px) {
+    from {
+        width: 30%;
+    }
+    form img {
+        width: 100%;
+    }
 }
