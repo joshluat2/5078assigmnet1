@@ -123,13 +123,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="contactpage.htm">
+    <None Include="contactpage.html">
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="HTMLPage1.html" />
     <None Include="HtmlPage2.html" />
     <None Include="hue2" />
     <None Include="JavaScript1.js" />
+    <None Include="contact.css" />
     <None Include="StyleSheet2.css" />
     <None Include="StyleSheet3.css" />
   </ItemGroup>

@@ -21,7 +21,8 @@
     <None Include="HtmlPage2.html" />
     <None Include="hue2" />
     <None Include="StyleSheet3.css" />
-    <None Include="contactpage.htm" />
+    <None Include="contactpage.html" />
+    <None Include="contact.css" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="hue1.jpg" />
