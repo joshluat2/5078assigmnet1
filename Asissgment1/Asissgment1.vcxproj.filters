@@ -21,10 +21,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="HTMLPage1.html" />
+    <None Include="home.html" />
     <None Include="StyleSheet2.css" />
     <None Include="JavaScript1.js" />
-    <None Include="HtmlPage2.html" />
+    <None Include="about.html" />
     <None Include="hue2" />
     <None Include="StyleSheet3.css" />
     <None Include="contactpage.html" />

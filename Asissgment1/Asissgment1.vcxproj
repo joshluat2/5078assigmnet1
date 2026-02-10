@@ -127,8 +127,8 @@
     <None Include="contactpage.html">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="HTMLPage1.html" />
-    <None Include="HtmlPage2.html" />
+    <None Include="home.html" />
+    <None Include="about.html" />
     <None Include="hue2" />
     <None Include="JavaScript1.js" />
     <None Include="contact.css" />
