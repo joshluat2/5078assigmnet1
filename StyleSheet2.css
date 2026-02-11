@@ -103,30 +103,37 @@ ul li {
         
     }
 
-@media (max-width: 600px) {
-    ul li item {
-        padding: 1.4rem 2rem;
-        font-size: medium;
-    }
-}
-@media (max-width: 1200px) {
-    .navbutton {
-        padding: 1rem 1rem;
-        font-size: 12px;
-        margin: 2% 1%;
-    }
-}
         ul li item img {
             float: left;
             margin-top: 3%;
             width: 75%;
             padding: 1.4rem 2.5rem;
-            
         }
 
 
+            @media (max-width: 1200px) {
+                ul li item {
+                    padding: 1.4rem 1.2rem;
+                    font-size: medium;
+                }
 
-.randomimgdiv {
+                    ul li item img {
+                        float: left;
+                        margin-top: 3%;
+                        width: 35%;
+                        padding: 1.4rem 3.5rem;
+                    }
+            }
+
+            @media (max-width: 1200px) {
+                .navbutton {
+                    padding: 1rem 1rem;
+                    font-size: 12px;
+                    margin: 2% 1%;
+                }
+            }
+
+            .randomimgdiv {
     display: flex;
     justify-content: center;
     align-content: center;
