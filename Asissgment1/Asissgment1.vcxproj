@@ -125,6 +125,7 @@
   <ItemGroup>
     <None Include="..\aboutpage.html" />
     <None Include="..\homepage.html" />
+    <None Include="..\JavaScript1.js" />
     <None Include=".github\workflow\deploy.yml" />
     <None Include="contactpage.html">
       <DeploymentContent>true</DeploymentContent>
