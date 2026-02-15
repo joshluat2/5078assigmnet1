@@ -1,5 +1,5 @@
 ﻿let image = document.getElementById('image')
-let images = ['images/hue1.jpg', 'images/hue2']
+let images = ['hue1.jpg', 'hue2']
 setInterval(function(){
 	let random = Math.floor(Math.random() * 2)
 	image.src = images[random]	
