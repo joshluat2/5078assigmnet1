@@ -134,8 +134,6 @@
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="hue2" />
-    <None Include="JavaScript1.js" />
-    <None Include="StyleSheet2.css" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="bedroom.png" />

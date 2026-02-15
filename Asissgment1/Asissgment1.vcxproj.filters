@@ -22,10 +22,11 @@
     <Filter Include="images">
       <UniqueIdentifier>{50abc5a9-27d8-4fa8-8dd0-a70e0d6f6f57}</UniqueIdentifier>
     </Filter>
+    <Filter Include="root">
+      <UniqueIdentifier>{d4d18a6e-9b10-4536-88e9-dfd322447e04}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="StyleSheet2.css" />
-    <None Include="JavaScript1.js" />
     <None Include="contactpage.html" />
     <None Include=".github\workflow\deploy.yml">
       <Filter>.github\workflows</Filter>
@@ -35,10 +36,18 @@
     </None>
     <None Include="..\aboutpage.html" />
     <None Include="..\homepage.html" />
-    <None Include="..\JavaScript1.js" />
-    <None Include="..\StyleSheet3.css" />
-    <None Include="..\contact.css" />
-    <None Include="..\StyleSheet2.css" />
+    <None Include="..\StyleSheet2.css">
+      <Filter>root</Filter>
+    </None>
+    <None Include="..\StyleSheet3.css">
+      <Filter>root</Filter>
+    </None>
+    <None Include="..\contact.css">
+      <Filter>root</Filter>
+    </None>
+    <None Include="..\JavaScript1.js">
+      <Filter>root</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Image Include="bedroom.png">
