@@ -9,7 +9,6 @@
     grid-template-columns: 50% 50%;
     grid-template-rows: 10% 90%;
     margin: 5%;
-    border: 5px solid green;
 }
 
 .texttitle {
@@ -35,7 +34,6 @@
     grid-row: 2;
     height: fit-content;
     overflow: hidden;
-    border: 5px solid blue;
 }
 .imgbox1 {
     align-content: normal;

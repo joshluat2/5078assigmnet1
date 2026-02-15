@@ -2,7 +2,7 @@
 @import url('contact.css');
 
 body {
-    padding-top: 17%;
+    padding-top: 11%;
     margin: 0;
     overflow-x: hidden;
     background-color: #89CFF0;
@@ -27,11 +27,6 @@ body {
     background-size: cover;
     margin: 0%;
 }
-
-.encapsulordiv {
-    
-}
-
 
 h1 {
     font-family: 'Playfair Display', sans-serif;
@@ -85,7 +80,7 @@ ul {
     top:0;
     background-color: black;
     width: 100%;
-    height:35%;
+    height:25%;
     display: flex;
     list-style-type: none;
     margin: 0;
@@ -94,45 +89,55 @@ ul {
     box-shadow: 0 4px 8px white;
     opacity: 0.95;
 }
-
-
 ul li {
     float: right;
     gap: 50rem;
     margin-top: auto;
-    
-}
-    ul li item {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 1.4rem 5rem;
-        text-decoration: none;
-        font-size: large;
-        
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1.4rem 5rem;
+    text-decoration: none;
+    font-size: large;
     }
-
-        ul li item img {
-            float: left;
-            margin-top: 3%;
-            width: 75%;
-            padding: 1.4rem 2.5rem;
+    ul li img {
+        width: 65%;
+        padding: 0%;
+        margin: 0%;
+        bottom: 5%;
         }
 
 
             @media (max-width: 1200px) {
-                ul li item {
-                    padding: 1rem 1.2rem;
+                body {
+                    padding-top: 29%;
+                }
+                ul {
+                    position: fixed;
+                    z-index: 1000;
+                    top: 0;
+                    background-color: black;
+                    width: 100%;
+                    height: 25%;
+                    display: flex;
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 7% 0%;
+                    overflow: visible;
+                    box-shadow: 0 4px 8px white;
+                    opacity: 0.95;
+                }
+                ul li {
+                    padding: 0.5rem 1.2rem;
                     font-size: medium;
-                    left: 15%;
+                    right: 40%;
                 }
 
-                    ul li item img {
+                    ul li img {
                         float: left;
-                        margin-top: 3%;
-                        width: 35%;
-                        padding: 1.4rem 3.5rem;
-                        left: 5%;
+                        width: 65%;
+                        padding: 0.5rem 1.2rem;
+                        left: 30%;
                     }
             }
 
@@ -147,7 +152,7 @@ ul li {
                 }
             }
 
-            .randomimgdiv {
+    .randomimgdiv {
     display: flex;
     justify-content: center;
     align-content: center;
