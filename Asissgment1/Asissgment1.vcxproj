@@ -124,9 +124,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="..\aboutpage.html" />
-    <None Include="..\contact.css" />
     <None Include="..\homepage.html" />
     <None Include="..\JavaScript1.js" />
+    <None Include="..\root\contact.css" />
     <None Include="..\StyleSheet2.css" />
     <None Include="..\StyleSheet3.css" />
     <None Include=".github\workflow\deploy.yml" />

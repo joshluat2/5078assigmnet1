@@ -36,16 +36,16 @@
     </None>
     <None Include="..\aboutpage.html" />
     <None Include="..\homepage.html" />
+    <None Include="..\root\contact.css">
+      <Filter>root</Filter>
+    </None>
+    <None Include="..\JavaScript1.js">
+      <Filter>root</Filter>
+    </None>
     <None Include="..\StyleSheet2.css">
       <Filter>root</Filter>
     </None>
     <None Include="..\StyleSheet3.css">
-      <Filter>root</Filter>
-    </None>
-    <None Include="..\contact.css">
-      <Filter>root</Filter>
-    </None>
-    <None Include="..\JavaScript1.js">
       <Filter>root</Filter>
     </None>
   </ItemGroup>
