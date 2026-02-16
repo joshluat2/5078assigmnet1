@@ -1,4 +1,4 @@
-﻿@import url('StyleSheet3.css');
+﻿@import url('root/StyleSheet3.css');
 @import url('root/contact.css');
 
 body {
@@ -11,7 +11,7 @@ body {
 .imgback {
     height: auto;
     width: 100%;
-    background-image: url(images/forestView.png);
+    background-image: url(../images/forestView.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -21,7 +21,7 @@ body {
 .imgback2 {
     height: auto;
     width: 100%;
-    background-image: url(images/lake.png);
+    background-image: url(../images/lake.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

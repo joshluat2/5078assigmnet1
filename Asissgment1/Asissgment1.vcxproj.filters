@@ -42,10 +42,10 @@
     <None Include="..\JavaScript1.js">
       <Filter>root</Filter>
     </None>
-    <None Include="..\StyleSheet2.css">
+    <None Include="..\StyleSheet3.css">
       <Filter>root</Filter>
     </None>
-    <None Include="..\StyleSheet3.css">
+    <None Include="..\root\StyleSheet2.css">
       <Filter>root</Filter>
     </None>
   </ItemGroup>

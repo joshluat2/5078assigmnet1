@@ -53,7 +53,7 @@
 .imgback3 {
     height: auto;
     width: 100%;
-    background-image: url(images/couple.png);
+    background-image: url(../images/couple.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
